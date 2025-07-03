@@ -89,14 +89,15 @@ $border-widths: map-merge($border-widths, $new-border-widths);
 
 // 5 esercizio 
 
-/*$new-input-btn-padding: (
-$new-input-btn-padding-y: 2.5rem,
-$new-input-btn-padding-x: 0.75rem,
-);
 
+$new-input-btn-padding-y: 2.5rem;
+$new-input-btn-padding-x: 0.75rem;
+
+$btn-padding-y: $new-input-btn-padding-y;
+$btn-padding-x: $new-input-btn-padding-x;
 
 $input-btn-padding: map-merge($btn-padding-x, $btn-padding-y, $new-input-btn-padding-x, $new-input-btn-padding-y );
-*/
+
 
 // 6 esercizio
 
