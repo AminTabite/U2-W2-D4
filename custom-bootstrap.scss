@@ -72,19 +72,19 @@ $font-size: map-merge($font-size, $new-font-sizes);
 
 // 2 esercizio
 $new-border-widths: (
-6: 6px,
-7: 7px,
-8: 8px,
-9: 9px,
-10: 10px,
-
+  6: 6px,
+  7: 7px,
+  8: 8px,
+  9: 9px,
+  10: 10px,
 );
 
-
-$border-width: map-merge($border-width, $new-border-widths);
-
+$border-widths: map-merge($border-widths, $new-border-widths);
 
 //3 
+
+
+
 
 
 
