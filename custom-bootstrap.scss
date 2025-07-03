@@ -17,12 +17,18 @@ $new-primary: rgb(174, 31, 174);
 $new-secondary: rgb(201, 201, 201);
 $new-danger: rgb(244, 127, 43);
 $stefano: rgb(12, 143, 143);
+$danger: #ff0077;
+$info: #00ffea;
+$light: #f3eeff;
 
 $new-theme-colors: (
   'primary': $new-primary,
   'secondary': $new-secondary,
-  'danger': $new-danger,
+  'danger': $danger,
   'stefano': $stefano,
+  'info': $info,
+  'light': $light,
+
 );
 
 // ...ho creato i miei due colori nuovi, gli ho dato i nomi di "primary"
@@ -45,7 +51,7 @@ $spacers: map-merge($spacers, $new-spacers);
 
 //1 esercizio
 
-$font-size: (
+$font-sizes: (
   1: 2.5rem,
   2: 2rem,
   3: 1.75rem,
@@ -60,13 +66,13 @@ $h9-font-size: 0.6rem;
 $h10-font-size: 0.5rem;
 
 $new-font-sizes: (
-  fs-7: $h7-font-size,
-  fs-8: $h8-font-size,
-  fs-9: $h9-font-size,
-  fs-10: $h10-font-size
+  7: $h7-font-size,
+  8: $h8-font-size,
+  9: $h9-font-size,
+  10: $h10-font-size
 );
 
-$font-size: map-merge($font-size, $new-font-sizes);
+$font-sizes: map-merge($font-sizes, $new-font-sizes);
 
 
 
@@ -81,7 +87,36 @@ $new-border-widths: (
 
 $border-widths: map-merge($border-widths, $new-border-widths);
 
-//3 
+// 5 esercizio 
+
+/*$new-input-btn-padding: (
+$new-input-btn-padding-y: 2.5rem,
+$new-input-btn-padding-x: 0.75rem,
+);
+
+
+$input-btn-padding: map-merge($btn-padding-x, $btn-padding-y, $new-input-btn-padding-x, $new-input-btn-padding-y );
+*/
+
+// 6 esercizio
+
+$grid-gutter-width: 0.5rem;
+
+
+// 8 esercizio 
+
+
+
+
+
+// 9 esercizio 
+
+
+
+
+
+//10 esercizio 
+
 
 
 
